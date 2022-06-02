@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Music</title>
+</head>
+
+<body>
+    <form class="comparisonForm">
+        <section class="comparisonForm__container">
+            <h2>Una Playlist solo para tu grupo</h2>
+            <div class="comparisonForm__section">
+                <label for="person">Tú</label>
+                <select name="person" id="">
+                </select>
+                <label for="person">amiwo</label>
+                <select name="person" id="">
+                </select>
+                <label for="person">amiwo</label>
+                <select name="person" id="">
+                </select>
+                <label for="person">amiwo</label>
+                <select name="person" id="">
+                </select>
+                <label for="person">amiwo</label>
+                <select name="person" id="">
+                </select>
+                <label for="neighbors">Canciones (K)</label>
+                <input type="number" name="neighbors" required min="1" max="20" placeholder="Número de vecinos" class="vecinos">
+                <button class="comparisonForm__btn">
+                    Ejecutar
+                </button>
+            </div>
+            <div class="comparisonForm__section">
+                <h2>Canciones Perfectas para ti</h2>
+                <ol class="comparisonForm__results">
+
+                </ol>
+            </div>
+        </section>
+        <!--<section class="comparisonForm__graphicSection">
+            <h2>Gráfico distancia coseno</h2>
+            <section class="comparisonForm__graphic">
+
+            </section>
+        </section>-->
+
+    </form>
+    <script src="./lib/papaparse.min.js"></script>
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
